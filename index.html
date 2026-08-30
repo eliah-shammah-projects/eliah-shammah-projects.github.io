@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eliahu Netanel Shammah — Backend &amp; DevOps Developer</title>
+<meta name="description" content="Backend &amp; DevOps developer based in Israel. Building production-grade backend systems with real DevOps pipelines — and deepening into AI engineering along the way.">
+<meta name="author" content="Eliahu Netanel Shammah">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Eliahu Netanel Shammah — Backend &amp; DevOps Developer">
+<meta property="og:description" content="Production-grade backend systems with real DevOps pipelines, deepening into AI engineering.">
+<!-- og:image MUST be an absolute URL — crawlers don't resolve relative paths.
+     Replace once the GitHub Pages address is known, e.g.
+     https://eliah-shammah-projects.github.io/assets/img/og-image.jpg -->
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=9">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="#top">Eliahu&nbsp;Shammah</a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav__menu" id="navMenu" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#languages">Languages</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero__inner">
+
+    <figure class="hero__portrait reveal">
+      <img src="assets/img/portrait.jpg" alt="Portrait of Eliahu Netanel Shammah" width="440" height="440" data-fallback>
+      <span class="hero__portrait-fallback" aria-hidden="true">ES</span>
+    </figure>
+
+    <div class="hero__text">
+      <p class="eyebrow reveal">Backend &amp; DevOps Developer</p>
+
+      <h1 class="hero__name reveal">Eliahu&nbsp;Netanel<br>Shammah</h1>
+
+      <p class="hero__tagline reveal">
+        Building production-grade backend systems with real DevOps pipelines
+        — and deepening into AI engineering along the way.
+      </p>
+
+      <p class="status reveal">
+        <span class="status__dot" aria-hidden="true"></span>
+        Open to work &middot; Based in Israel
+      </p>
+
+      <div class="hero__actions reveal">
+        <a class="btn btn--solid" href="assets/cv/eliahu-shammah-cv.pdf" download>
+          Download CV
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5v9M4.2 7.2 8 11 11.8 7.2M2.5 13.8h11"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#projects">View projects</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section section--sunk section--before-dark" id="about">
+  <div class="wrap">
+    <p class="section__label reveal">About</p>
+
+    <div class="about">
+      <h2 class="section__title reveal">A path into engineering that didn&rsquo;t start in engineering.</h2>
+
+      <div class="about__body">
+        <p class="reveal">
+          I&rsquo;m a backend &amp; DevOps developer based in Israel, currently building
+          production-grade applications with AI integration. Before tech, I spent three
+          years abroad in Brazil as an educator and community leader — leading programs,
+          teaching, and adapting fast in unfamiliar environments.
+        </p>
+        <p class="reveal">
+          That background shaped how I approach engineering today: breaking down complex
+          problems, communicating clearly, and learning quickly. I made the shift into
+          software through an intensive Full-Stack &amp; DevOps program, and I&rsquo;ve been
+          building real, deployed systems ever since.
+        </p>
+        <p class="about__aside reveal">
+          Outside of code, I&rsquo;m into history, geography, and astronomy — always digging
+          into how things came to be.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section--dark" id="projects">
+  <div class="wrap">
+    <p class="section__label reveal">Projects</p>
+    <h2 class="section__title reveal">Things I&rsquo;ve shipped.</h2>
+
+    <div class="projects">
+
+      <!-- 1 — Psych AI Chat -->
+      <article class="project project--flagship reveal">
+        <div class="project__media">
+          <div class="media" data-label="psych-ai-chat.mp4">
+            <video src="assets/video/psych-ai-chat.mp4" poster="assets/img/psych-ai-chat.jpg"
+                   muted loop playsinline preload="metadata" aria-label="Psych AI Chat demo"></video>
+          </div>
+        </div>
+
+        <div class="project__body">
+          <div class="project__badges">
+            <span class="badge badge--pass"><i></i>build passing</span>
+            <span class="badge badge--live"><i></i>deployed</span>
+          </div>
+
+          <h3 class="project__name">Psych AI Chat</h3>
+          <p class="project__flag">Flagship</p>
+
+          <p class="project__desc">
+            An AI-powered web app where users choose a therapeutic approach and chat with a
+            distinct AI persona. Built 7 engineered system prompts (CBT, Gestalt, ACT, and
+            more), each with tuned temperature settings for consistent tone. Deployed via
+            automated CI/CD pipeline (Docker → ECR → EC2).
+          </p>
+
+          <ul class="project__stack">
+            <li>Python</li><li>Flask</li><li>Claude API</li><li>Docker</li><li>AWS ECR</li><li>AWS EC2</li><li>GitHub Actions</li>
+          </ul>
+
+          <div class="project__actions">
+            <a class="btn btn--ghost" href="https://github.com/eliah-shammah-projects/-psych-ai-chat---English-version" target="_blank" rel="noopener">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 — CashFlow -->
+      <article class="project reveal">
+        <div class="project__media">
+          <div class="media" data-label="cashflow.mp4">
+            <video src="assets/video/cashflow.mp4" poster="assets/img/cashflow.jpg"
+                   muted loop playsinline preload="metadata" aria-label="CashFlow demo"></video>
+          </div>
+        </div>
+
+        <div class="project__body">
+          <div class="project__badges">
+            <span class="badge badge--live"><i></i>deployed</span>
+          </div>
+
+          <h3 class="project__name">CashFlow</h3>
+          <p class="project__flag">Collaborative project</p>
+
+          <p class="project__desc">
+            A full-stack personal finance app with AI-powered voice input (Groq LLM) and
+            12-month cash flow forecasting. Built collaboratively, with infrastructure fully
+            automated via Terraform (EC2, ECR, IAM) and monitored with Prometheus/Grafana.
+          </p>
+
+          <ul class="project__stack">
+            <li>Python</li><li>Flask</li><li>Groq LLM</li><li>Terraform</li><li>Prometheus</li><li>Grafana</li><li>AWS</li>
+          </ul>
+
+          <div class="project__actions">
+            <a class="btn btn--ghost" href="https://github.com/YaakovNeriya/CashFlow" target="_blank" rel="noopener">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3 — World Cup 2026 Simulator -->
+      <article class="project reveal">
+        <div class="project__media">
+          <div class="media" data-label="world-cup.mp4">
+            <video src="assets/video/world-cup.mp4" poster="assets/img/world-cup.jpg"
+                   muted loop playsinline preload="metadata" aria-label="World Cup 2026 Simulator demo"></video>
+          </div>
+        </div>
+
+        <div class="project__body">
+          <div class="project__badges">
+            <span class="badge badge--live"><i></i>deployed</span>
+          </div>
+
+          <h3 class="project__name">World Cup 2026 Simulator</h3>
+
+          <p class="project__desc">
+            A simulation engine for the 48-team World Cup format, implementing official FIFA
+            tiebreaker logic for group standings. Fully Dockerized with Nginx and automated
+            CI/CD deployment.
+          </p>
+
+          <ul class="project__stack">
+            <li>Python</li><li>Docker</li><li>Nginx</li><li>GitHub Actions</li><li>Linux</li>
+          </ul>
+
+          <div class="project__actions">
+            <a class="btn btn--ghost" href="https://github.com/eliah-shammah-projects/world_cup" target="_blank" rel="noopener">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 — Kehilá -->
+      <article class="project reveal">
+        <div class="project__media">
+          <div class="media" data-label="kehila.mp4">
+            <video src="assets/video/kehila.mp4" poster="assets/img/kehila.jpg"
+                   muted loop playsinline preload="metadata" aria-label="Kehilá seat reservation demo"></video>
+          </div>
+        </div>
+
+        <div class="project__body">
+          <div class="project__badges">
+            <span class="badge badge--wip"><i></i>in progress</span>
+          </div>
+
+          <h3 class="project__name">Kehilá — Yamim Noraim Seat Reservation</h3>
+
+          <p class="project__desc">
+            A seat-reservation system built for a real synagogue community, managing High
+            Holiday seating with an interactive visual map. Currently in development — Phase 1
+            focuses on admin seat assignment and printable maps, with online payment
+            integration planned for Phase 2.
+          </p>
+
+          <ul class="project__stack">
+            <li>Python</li><li>Flask</li><li>SQL</li><li>Docker</li>
+          </ul>
+
+          <div class="project__actions">
+            <a class="btn btn--ghost" href="https://github.com/eliah-shammah-projects/yamim-noraim-places" target="_blank" rel="noopener">View Code</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section--sunk" id="skills">
+  <div class="wrap">
+    <p class="section__label reveal">Skills</p>
+    <h2 class="section__title reveal">Toolchain.</h2>
+
+    <div class="skills">
+      <div class="skills__group reveal">
+        <h3 class="skills__cat">Build the backend</h3>
+        <ul class="tags">
+          <li>Python</li><li>Flask</li><li>SQL</li><li>HTML/CSS</li>
+        </ul>
+      </div>
+
+      <div class="skills__group reveal">
+        <h3 class="skills__cat">Package and ship</h3>
+        <ul class="tags">
+          <li>Docker</li><li>Git</li><li>GitHub</li><li>GitHub Actions</li>
+        </ul>
+      </div>
+
+      <div class="skills__group reveal">
+        <h3 class="skills__cat">Run it on AWS</h3>
+        <ul class="tags">
+          <li>EC2</li><li>ECR</li><li>Terraform</li><li>Linux</li>
+        </ul>
+      </div>
+
+      <div class="skills__group reveal">
+        <h3 class="skills__cat">AI engineering</h3>
+        <ul class="tags">
+          <li>Claude API (Anthropic SDK)</li><li>System prompt engineering</li>
+          <li>Temperature tuning</li><li>Claude Code</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section" id="experience">
+  <div class="wrap">
+    <p class="section__label reveal">Experience</p>
+    <h2 class="section__title reveal">Where I&rsquo;ve been.</h2>
+
+    <ol class="timeline">
+      <li class="timeline__item reveal">
+        <p class="timeline__years">2022 &ndash; 2025</p>
+        <div class="timeline__content">
+          <h3 class="timeline__role">Teacher &amp; Educational Leader</h3>
+          <p class="timeline__org">Or Yossef Yeshiva High School, Brazil</p>
+          <p class="timeline__desc">Taught classes, led student projects, and mentored students.</p>
+        </div>
+      </li>
+
+      <li class="timeline__item reveal">
+        <p class="timeline__years">2025 &ndash; Present</p>
+        <div class="timeline__content">
+          <h3 class="timeline__role">Community Educator</h3>
+          <p class="timeline__org">Or Israel Community, Raanana</p>
+          <p class="timeline__desc">Teach classes and lead community projects.</p>
+        </div>
+      </li>
+
+      <li class="timeline__item timeline__item--edu reveal">
+        <p class="timeline__years">2025 &ndash; 2026</p>
+        <div class="timeline__content">
+          <p class="timeline__kind">Education</p>
+          <h3 class="timeline__role">Software Development &amp; DevOps Orientation</h3>
+          <p class="timeline__org">Mego (with ORT)</p>
+        </div>
+      </li>
+    </ol>
+
+  </div>
+</section>
+
+<!-- ============ LANGUAGES ============ -->
+<section class="section section--sunk section--before-dark" id="languages">
+  <div class="wrap">
+    <p class="section__label reveal">Languages</p>
+
+    <ul class="languages">
+      <li class="languages__item reveal">
+        <span class="languages__name">Portuguese</span>
+        <span class="languages__meta">
+          <span class="languages__native" lang="pt" dir="ltr">Português</span>
+          <span class="languages__level">Native</span>
+        </span>
+      </li>
+      <li class="languages__item reveal">
+        <span class="languages__name">Hebrew</span>
+        <span class="languages__meta">
+          <span class="languages__native" lang="he" dir="rtl">עברית</span>
+          <span class="languages__level">Fluent</span>
+        </span>
+      </li>
+      <li class="languages__item reveal">
+        <span class="languages__name">English</span>
+        <span class="languages__meta">
+          <span class="languages__native" lang="en" dir="ltr">English</span>
+          <span class="languages__level">Advanced</span>
+        </span>
+      </li>
+      <li class="languages__item reveal">
+        <span class="languages__name">Spanish</span>
+        <span class="languages__meta">
+          <span class="languages__native" lang="es" dir="ltr">Español</span>
+          <span class="languages__level">Advanced</span>
+        </span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--contact section--dark" id="contact">
+  <div class="wrap">
+    <p class="section__label reveal">Contact</p>
+    <h2 class="section__title section__title--big reveal">Let&rsquo;s talk.</h2>
+    <p class="contact__lead reveal">
+      Open to backend, DevOps, and AI engineering roles. The fastest way to reach me is email.
+    </p>
+
+    <div class="contact__links reveal">
+      <a class="contact__link" href="mailto:eliahunetanel@gmail.com">
+        <span class="contact__kind">
+          <img class="contact__icon" src="assets/icons/email.svg?v=9" alt="" width="18" height="18">Email
+        </span>
+        <span class="contact__value">eliahunetanel@gmail.com</span>
+      </a>
+      <a class="contact__link" href="https://www.linkedin.com/in/eliahu-shammah-940752378/" target="_blank" rel="noopener">
+        <span class="contact__kind">
+          <img class="contact__icon" src="assets/icons/linkedin.svg?v=9" alt="" width="18" height="18">LinkedIn
+        </span>
+        <span class="contact__value">Eliahu Shammah</span>
+      </a>
+      <a class="contact__link" href="https://github.com/eliah-shammah-projects" target="_blank" rel="noopener">
+        <span class="contact__kind">
+          <img class="contact__icon" src="assets/icons/github.svg?v=9" alt="" width="18" height="18">GitHub
+        </span>
+        <span class="contact__value">eliah-shammah-projects</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p class="footer__note">&copy; <span id="year">2026</span> Eliahu Netanel Shammah · Built from scratch, no framework.</p>
+  </div>
+</footer>
+
+<script src="js/main.js?v=9"></script>
+</body>
+</html>
