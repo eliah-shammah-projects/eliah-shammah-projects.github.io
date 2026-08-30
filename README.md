@@ -82,7 +82,7 @@ git init
 git add .
 git commit -m "Portfolio site"
 git branch -M main
-git remote add origin https://github.com/<user>/<repo>.git
+git remote add origin https://github.com/eliah-shammah-projects/eliah-shammah-projects.github.io.git
 git push -u origin main
 ```
 
@@ -113,10 +113,11 @@ Type: Cormorant Garamond (display, 300) · Inter (body) · JetBrains Mono
 - [ ] **Logos** for Or Yossef, Or Israel Community, Mego/ORT in the Experience
       timeline. Need transparent PNGs, 200px+ tall; will be greyscaled and
       levelled to a common optical height.
-- [ ] **Repo name** — decides the site URL, which in turn unblocks the two below.
-- [ ] **`og:image` absolute URL** in `index.html` (see comment in `<head>`).
-- [ ] **CV** currently on the site predates the site, so it has no link back to
-      it. Re-export once the URL exists, then replace `assets/cv/`.
+- [x] ~~Repo name~~ — `eliah-shammah-projects.github.io`
+- [x] ~~`og:image` absolute URL~~
+- [ ] **CV** predates the site, so it has no link back to it. Add
+      `https://eliah-shammah-projects.github.io` to the CV, re-export, and
+      replace `assets/cv/eliahu-shammah-cv.pdf`.
 - [ ] Open questions for Eliahu: duotone strength on the portrait (now `.42`),
       and whether two dark bands is one too many.
 
